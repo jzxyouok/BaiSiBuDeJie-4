@@ -12,7 +12,11 @@
 @implementation JDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    UIWindow *window = [UIWindow alloc] initWithFrame:
+    UIWindow *window = [[UIWindow alloc] initWithFrame:JDScreenBounds];
+    JDTabBarController *tabBarVc = [[JDTabBarController alloc] init];
+    window.rootViewController = tabBarVc;
+    [window makeKeyAndVisible];
+    self.window = window;
     return YES;
 }
 
