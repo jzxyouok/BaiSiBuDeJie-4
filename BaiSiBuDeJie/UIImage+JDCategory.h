@@ -10,6 +10,13 @@
 
 @interface UIImage (JDCategory)
 
+/**
+ *  返回原始(不被渲染)的图片：
+ *
+ *  @param imgName 图片名。
+ *
+ *  @return 
+ */
 +(UIImage *)getOriginalImageWithName:(NSString *)imgName;
 
 @end
