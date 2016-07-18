@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52D0BE02623D31951726A52B /* libPods-BaiSiBuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 904BBCF208A0F89B33863C2B /* libPods-BaiSiBuDeJie.a */; };
+		777A39BC0123740D08767EDC /* libPods-BaiSiBuDeJieTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F786067F3E55CDDD42BE8650 /* libPods-BaiSiBuDeJieTests.a */; };
+		87B109CC6B7ED9BCE66D26E2 /* libPods-BaiSiBuDeJieUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B7F9F396D269BF15A03EE1 /* libPods-BaiSiBuDeJieUITests.a */; };
 		EE2F9DF31D3CBBF70041B2E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F9DF21D3CBBF70041B2E3 /* main.m */; };
-		EE2F9DF61D3CBBF70041B2E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F9DF51D3CBBF70041B2E3 /* AppDelegate.m */; };
-		EE2F9DF91D3CBBF70041B2E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F9DF81D3CBBF70041B2E3 /* ViewController.m */; };
-		EE2F9DFC1D3CBBF70041B2E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2F9DFA1D3CBBF70041B2E3 /* Main.storyboard */; };
 		EE2F9DFE1D3CBBF70041B2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2F9DFD1D3CBBF70041B2E3 /* Assets.xcassets */; };
-		EE2F9E011D3CBBF70041B2E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2F9DFF1D3CBBF70041B2E3 /* LaunchScreen.storyboard */; };
 		EE2F9E0C1D3CBBF70041B2E3 /* BaiSiBuDeJieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F9E0B1D3CBBF70041B2E3 /* BaiSiBuDeJieTests.m */; };
 		EE2F9E171D3CBBF70041B2E3 /* BaiSiBuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F9E161D3CBBF70041B2E3 /* BaiSiBuDeJieUITests.m */; };
+		EE6FF2E21D3CBD2B00308013 /* JDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FF2E11D3CBD2B00308013 /* JDAppDelegate.m */; };
+		EE6FF2EB1D3CBF0600308013 /* JDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FF2EA1D3CBF0600308013 /* JDTabBarController.m */; };
+		EE6FF2EE1D3CBF4100308013 /* JDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FF2ED1D3CBF4100308013 /* JDNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		301C1C467BEF9959FA2F88FF /* Pods-BaiSiBuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.release.xcconfig"; sourceTree = "<group>"; };
+		3086FD24069C02D7C79717B6 /* Pods-BaiSiBuDeJieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJieTests/Pods-BaiSiBuDeJieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D9E950E4BCAF522CD59B69C /* Pods-BaiSiBuDeJieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJieTests/Pods-BaiSiBuDeJieTests.release.xcconfig"; sourceTree = "<group>"; };
+		78B7F9F396D269BF15A03EE1 /* libPods-BaiSiBuDeJieUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiSiBuDeJieUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6B8640B087DB0897137AC4 /* Pods-BaiSiBuDeJieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJieUITests/Pods-BaiSiBuDeJieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		904BBCF208A0F89B33863C2B /* libPods-BaiSiBuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiSiBuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		927FFE4C4817FB1C27B05211 /* Pods-BaiSiBuDeJieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJieUITests/Pods-BaiSiBuDeJieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A5D4CA5AFF47CFBD0128CD92 /* Pods-BaiSiBuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
 		EE2F9DEE1D3CBBF70041B2E3 /* BaiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSiBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2F9DF21D3CBBF70041B2E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE2F9DF41D3CBBF70041B2E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EE2F9DF51D3CBBF70041B2E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE2F9DF71D3CBBF70041B2E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE2F9DF81D3CBBF70041B2E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EE2F9DFB1D3CBBF70041B2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE2F9DFD1D3CBBF70041B2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE2F9E001D3CBBF70041B2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE2F9E021D3CBBF70041B2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE2F9E071D3CBBF70041B2E3 /* BaiSiBuDeJieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiSiBuDeJieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2F9E0B1D3CBBF70041B2E3 /* BaiSiBuDeJieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiSiBuDeJieTests.m; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		EE2F9E121D3CBBF70041B2E3 /* BaiSiBuDeJieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiSiBuDeJieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2F9E161D3CBBF70041B2E3 /* BaiSiBuDeJieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiSiBuDeJieUITests.m; sourceTree = "<group>"; };
 		EE2F9E181D3CBBF70041B2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6FF2E01D3CBD2B00308013 /* JDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAppDelegate.h; sourceTree = "<group>"; };
+		EE6FF2E11D3CBD2B00308013 /* JDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAppDelegate.m; sourceTree = "<group>"; };
+		EE6FF2E91D3CBF0600308013 /* JDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDTabBarController.h; sourceTree = "<group>"; };
+		EE6FF2EA1D3CBF0600308013 /* JDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTabBarController.m; sourceTree = "<group>"; };
+		EE6FF2EC1D3CBF4100308013 /* JDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDNavigationController.h; sourceTree = "<group>"; };
+		EE6FF2ED1D3CBF4100308013 /* JDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDNavigationController.m; sourceTree = "<group>"; };
+		EE6FF2F11D3CC04900308013 /* BSBDJHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBDJHeader.pch; sourceTree = "<group>"; };
+		F786067F3E55CDDD42BE8650 /* libPods-BaiSiBuDeJieTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiSiBuDeJieTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D0BE02623D31951726A52B /* libPods-BaiSiBuDeJie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777A39BC0123740D08767EDC /* libPods-BaiSiBuDeJieTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B109CC6B7ED9BCE66D26E2 /* libPods-BaiSiBuDeJieUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		599F38C6196F21E98F78235B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				904BBCF208A0F89B33863C2B /* libPods-BaiSiBuDeJie.a */,
+				F786067F3E55CDDD42BE8650 /* libPods-BaiSiBuDeJieTests.a */,
+				78B7F9F396D269BF15A03EE1 /* libPods-BaiSiBuDeJieUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DACEC2EA53EA207E836ED03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5D4CA5AFF47CFBD0128CD92 /* Pods-BaiSiBuDeJie.debug.xcconfig */,
+				301C1C467BEF9959FA2F88FF /* Pods-BaiSiBuDeJie.release.xcconfig */,
+				3086FD24069C02D7C79717B6 /* Pods-BaiSiBuDeJieTests.debug.xcconfig */,
+				3D9E950E4BCAF522CD59B69C /* Pods-BaiSiBuDeJieTests.release.xcconfig */,
+				8C6B8640B087DB0897137AC4 /* Pods-BaiSiBuDeJieUITests.debug.xcconfig */,
+				927FFE4C4817FB1C27B05211 /* Pods-BaiSiBuDeJieUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EE2F9DE51D3CBBF70041B2E3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				EE2F9E0A1D3CBBF70041B2E3 /* BaiSiBuDeJieTests */,
 				EE2F9E151D3CBBF70041B2E3 /* BaiSiBuDeJieUITests */,
 				EE2F9DEF1D3CBBF70041B2E3 /* Products */,
+				8DACEC2EA53EA207E836ED03 /* Pods */,
+				599F38C6196F21E98F78235B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +141,7 @@
 		EE2F9DF01D3CBBF70041B2E3 /* BaiSiBuDeJie */ = {
 			isa = PBXGroup;
 			children = (
-				EE2F9DF41D3CBBF70041B2E3 /* AppDelegate.h */,
-				EE2F9DF51D3CBBF70041B2E3 /* AppDelegate.m */,
-				EE2F9DF71D3CBBF70041B2E3 /* ViewController.h */,
-				EE2F9DF81D3CBBF70041B2E3 /* ViewController.m */,
-				EE2F9DFA1D3CBBF70041B2E3 /* Main.storyboard */,
-				EE2F9DFD1D3CBBF70041B2E3 /* Assets.xcassets */,
-				EE2F9DFF1D3CBBF70041B2E3 /* LaunchScreen.storyboard */,
-				EE2F9E021D3CBBF70041B2E3 /* Info.plist */,
+				EE6FF2E31D3CBDAD00308013 /* Classes */,
 				EE2F9DF11D3CBBF70041B2E3 /* Supporting Files */,
 			);
 			path = BaiSiBuDeJie;
@@ -117,6 +150,8 @@
 		EE2F9DF11D3CBBF70041B2E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE2F9DFD1D3CBBF70041B2E3 /* Assets.xcassets */,
+				EE2F9E021D3CBBF70041B2E3 /* Info.plist */,
 				EE2F9DF21D3CBBF70041B2E3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +175,60 @@
 			path = BaiSiBuDeJieUITests;
 			sourceTree = "<group>";
 		};
+		EE6FF2E31D3CBDAD00308013 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FF2E51D3CBDC600308013 /* Main */,
+				EE6FF2E41D3CBDBA00308013 /* Others */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		EE6FF2E41D3CBDBA00308013 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FF2E01D3CBD2B00308013 /* JDAppDelegate.h */,
+				EE6FF2E11D3CBD2B00308013 /* JDAppDelegate.m */,
+				EE6FF2F11D3CC04900308013 /* BSBDJHeader.pch */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		EE6FF2E51D3CBDC600308013 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FF2E81D3CBDDA00308013 /* Model */,
+				EE6FF2E71D3CBDD300308013 /* Controller */,
+				EE6FF2E61D3CBDCE00308013 /* View */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		EE6FF2E61D3CBDCE00308013 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EE6FF2E71D3CBDD300308013 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE6FF2E91D3CBF0600308013 /* JDTabBarController.h */,
+				EE6FF2EA1D3CBF0600308013 /* JDTabBarController.m */,
+				EE6FF2EC1D3CBF4100308013 /* JDNavigationController.h */,
+				EE6FF2ED1D3CBF4100308013 /* JDNavigationController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EE6FF2E81D3CBDDA00308013 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE2F9E1B1D3CBBF70041B2E3 /* Build configuration list for PBXNativeTarget "BaiSiBuDeJie" */;
 			buildPhases = (
+				453D793930BB707969E20F45 /* [CP] Check Pods Manifest.lock */,
 				EE2F9DEA1D3CBBF70041B2E3 /* Sources */,
 				EE2F9DEB1D3CBBF70041B2E3 /* Frameworks */,
 				EE2F9DEC1D3CBBF70041B2E3 /* Resources */,
+				A05DD8C307E7E6FEAD3B8EC9 /* [CP] Embed Pods Frameworks */,
+				9CD5E848584A1F9E8DD475DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE2F9E1E1D3CBBF70041B2E3 /* Build configuration list for PBXNativeTarget "BaiSiBuDeJieTests" */;
 			buildPhases = (
+				2237693A4C0A64CC374760EC /* [CP] Check Pods Manifest.lock */,
 				EE2F9E031D3CBBF70041B2E3 /* Sources */,
 				EE2F9E041D3CBBF70041B2E3 /* Frameworks */,
 				EE2F9E051D3CBBF70041B2E3 /* Resources */,
+				B08460F621FA3E535F9EA074 /* [CP] Embed Pods Frameworks */,
+				71C2A0A51407EE42D87312DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE2F9E211D3CBBF70041B2E3 /* Build configuration list for PBXNativeTarget "BaiSiBuDeJieUITests" */;
 			buildPhases = (
+				17413F658DBD3379DDB559AC /* [CP] Check Pods Manifest.lock */,
 				EE2F9E0E1D3CBBF70041B2E3 /* Sources */,
 				EE2F9E0F1D3CBBF70041B2E3 /* Frameworks */,
 				EE2F9E101D3CBBF70041B2E3 /* Resources */,
+				2AA0B8D9E048BB7773211B7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +299,7 @@
 		EE2F9DE61D3CBBF70041B2E3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JD;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Jiang;
 				TargetAttributes = {
@@ -243,9 +341,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE2F9E011D3CBBF70041B2E3 /* LaunchScreen.storyboard in Resources */,
 				EE2F9DFE1D3CBBF70041B2E3 /* Assets.xcassets in Resources */,
-				EE2F9DFC1D3CBBF70041B2E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +361,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17413F658DBD3379DDB559AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2237693A4C0A64CC374760EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2AA0B8D9E048BB7773211B7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiSiBuDeJieUITests/Pods-BaiSiBuDeJieUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		453D793930BB707969E20F45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		71C2A0A51407EE42D87312DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiSiBuDeJieTests/Pods-BaiSiBuDeJieTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD5E848584A1F9E8DD475DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A05DD8C307E7E6FEAD3B8EC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B08460F621FA3E535F9EA074 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiSiBuDeJieTests/Pods-BaiSiBuDeJieTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE2F9DEA1D3CBBF70041B2E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE2F9DF91D3CBBF70041B2E3 /* ViewController.m in Sources */,
-				EE2F9DF61D3CBBF70041B2E3 /* AppDelegate.m in Sources */,
+				EE6FF2E21D3CBD2B00308013 /* JDAppDelegate.m in Sources */,
+				EE6FF2EE1D3CBF4100308013 /* JDNavigationController.m in Sources */,
+				EE6FF2EB1D3CBF0600308013 /* JDTabBarController.m in Sources */,
 				EE2F9DF31D3CBBF70041B2E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,25 +526,6 @@
 			targetProxy = EE2F9E131D3CBBF70041B2E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EE2F9DFA1D3CBBF70041B2E3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE2F9DFB1D3CBBF70041B2E3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EE2F9DFF1D3CBBF70041B2E3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE2F9E001D3CBBF70041B2E3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EE2F9E191D3CBBF70041B2E3 /* Debug */ = {
@@ -413,8 +614,10 @@
 		};
 		EE2F9E1C1D3CBBF70041B2E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D4CA5AFF47CFBD0128CD92 /* Pods-BaiSiBuDeJie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BaiSiBuDeJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hk.google.www.BaiSiBuDeJie;
@@ -424,8 +627,10 @@
 		};
 		EE2F9E1D1D3CBBF70041B2E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301C1C467BEF9959FA2F88FF /* Pods-BaiSiBuDeJie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BaiSiBuDeJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hk.google.www.BaiSiBuDeJie;
@@ -435,6 +640,7 @@
 		};
 		EE2F9E1F1D3CBBF70041B2E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3086FD24069C02D7C79717B6 /* Pods-BaiSiBuDeJieTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BaiSiBuDeJieTests/Info.plist;
@@ -447,6 +653,7 @@
 		};
 		EE2F9E201D3CBBF70041B2E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9E950E4BCAF522CD59B69C /* Pods-BaiSiBuDeJieTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BaiSiBuDeJieTests/Info.plist;
@@ -459,6 +666,7 @@
 		};
 		EE2F9E221D3CBBF70041B2E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C6B8640B087DB0897137AC4 /* Pods-BaiSiBuDeJieUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BaiSiBuDeJieUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -470,6 +678,7 @@
 		};
 		EE2F9E231D3CBBF70041B2E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927FFE4C4817FB1C27B05211 /* Pods-BaiSiBuDeJieUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BaiSiBuDeJieUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +707,7 @@
 				EE2F9E1D1D3CBBF70041B2E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE2F9E1E1D3CBBF70041B2E3 /* Build configuration list for PBXNativeTarget "BaiSiBuDeJieTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +716,7 @@
 				EE2F9E201D3CBBF70041B2E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE2F9E211D3CBBF70041B2E3 /* Build configuration list for PBXNativeTarget "BaiSiBuDeJieUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +725,7 @@
 				EE2F9E231D3CBBF70041B2E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
