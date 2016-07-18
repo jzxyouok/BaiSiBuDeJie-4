@@ -14,7 +14,7 @@
 #import "JDFriendTrendController.h"
 #import "JDTabBar.h"
 
-@interface JDTabBarController ()
+@interface JDTabBarController () <JDTabBarDelegate>
 
 @end
 
@@ -29,6 +29,7 @@
     [self addChildViewControllers];
     // 替换系统tabBar：
     JDTabBar *tabBar = [[JDTabBar alloc] init];
+    tabBar.tabBarDelegate = self;
     [tabBar setTintColor:[UIColor blackColor]];
     [self setValue:tabBar forKey:@"tabBar"];
 }
@@ -61,10 +62,16 @@
  */
 -(void)createChildViewController:(UIViewController *)vc withTitle:(NSString *)title andNormalImageName:(NSString *)norImgName andSelectedImageName:(NSString *)selImgName {
     vc.title = title;
-    vc.tabBarItem.image = [[UIImage imageNamed:norImgName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    vc.tabBarItem.selectedImage = [[UIImage imageNamed:selImgName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    vc.tabBarItem.image = [UIImage getOriginalImageWithName:norImgName];
+    vc.tabBarItem.selectedImage = [UIImage getOriginalImageWithName:selImgName];
     JDNavigationController *navVc = [[JDNavigationController alloc] initWithRootViewController:vc];
     [self addChildViewController:navVc];
+}
+
+#pragma mark - JDTabBarDelegate.
+
+-(void)tabBar:(JDTabBar *)tabBar publishBtnDidClick:(UIButton *)publishBtn {
+    JDFunc;
 }
 
 @end

@@ -39,12 +39,27 @@
     [self setBackgroundImage:[UIImage imageNamed:@"tabbar-light"]];
 }
 
+// 添加发布按钮：
 -(void)addPublishButton {
     UIButton *publishBtn = [[UIButton alloc] init];
     [publishBtn setImage:[UIImage imageNamed:@"tabBar_publish_icon"] forState:UIControlStateNormal];
     [publishBtn setImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateHighlighted];
     [self addSubview:publishBtn];
     self.publishBtn = publishBtn;
+    
+    [publishBtn addTarget:self action:@selector(clickToPublishNewTopic:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+/**
+ *  点击发布新贴：
+ *
+ *  @param publishBtn
+ */
+-(void)clickToPublishNewTopic:(UIButton *)publishBtn {
+    // 执行代理：
+    if ([self.tabBarDelegate respondsToSelector:@selector(tabBar:publishBtnDidClick:)]) {
+        [self.tabBarDelegate tabBar:self publishBtnDidClick:publishBtn];
+    }
 }
 
 -(void)layoutSubviews {

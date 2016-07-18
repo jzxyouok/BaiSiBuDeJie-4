@@ -24,6 +24,7 @@
 		EE6FF3091D3D1C2500308013 /* JDNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FF3081D3D1C2500308013 /* JDNewController.m */; };
 		EE6FF30C1D3D1E2200308013 /* JDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FF30B1D3D1E2200308013 /* JDTabBar.m */; };
 		EE6FF3101D3D210900308013 /* UIView+JDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FF30F1D3D210900308013 /* UIView+JDCategory.m */; };
+		EE6FF3131D3D2D2400308013 /* UIImage+JDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FF3121D3D2D2400308013 /* UIImage+JDCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		EE6FF30B1D3D1E2200308013 /* JDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTabBar.m; sourceTree = "<group>"; };
 		EE6FF30E1D3D210900308013 /* UIView+JDCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JDCategory.h"; sourceTree = "<group>"; };
 		EE6FF30F1D3D210900308013 /* UIView+JDCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDCategory.m"; sourceTree = "<group>"; };
+		EE6FF3111D3D2D2400308013 /* UIImage+JDCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JDCategory.h"; sourceTree = "<group>"; };
+		EE6FF3121D3D2D2400308013 /* UIImage+JDCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JDCategory.m"; sourceTree = "<group>"; };
 		F786067F3E55CDDD42BE8650 /* libPods-BaiSiBuDeJieTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiSiBuDeJieTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -340,6 +343,8 @@
 			children = (
 				EE6FF30E1D3D210900308013 /* UIView+JDCategory.h */,
 				EE6FF30F1D3D210900308013 /* UIView+JDCategory.m */,
+				EE6FF3111D3D2D2400308013 /* UIImage+JDCategory.h */,
+				EE6FF3121D3D2D2400308013 /* UIImage+JDCategory.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -607,6 +612,7 @@
 				EE6FF3091D3D1C2500308013 /* JDNewController.m in Sources */,
 				EE6FF30C1D3D1E2200308013 /* JDTabBar.m in Sources */,
 				EE6FF2E21D3CBD2B00308013 /* JDAppDelegate.m in Sources */,
+				EE6FF3131D3D2D2400308013 /* UIImage+JDCategory.m in Sources */,
 				EE6FF2EE1D3CBF4100308013 /* JDNavigationController.m in Sources */,
 				EE6FF3101D3D210900308013 /* UIView+JDCategory.m in Sources */,
 				EE6FF3011D3D1BE800308013 /* JDFriendTrendController.m in Sources */,

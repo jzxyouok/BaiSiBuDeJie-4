@@ -30,6 +30,7 @@
 
 // 头文件：
 #import "UIView+JDCategory.h"
+#import "UIImage+JDCategory.h"
 
 // 其他：
 #define JDFunc JDLog(@"%s", __func__)
