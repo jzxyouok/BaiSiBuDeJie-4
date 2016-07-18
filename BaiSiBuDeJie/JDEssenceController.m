@@ -16,6 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setupEssenceController];
+}
+
+-(void)setupEssenceController {
+    self.navigationItem.titleView = [[JDTools shardTools] getMainTitleView];
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"" andHighlightedImageName:@"" andTarget:self andSEL:@selector(clickToIntoGamesPage:)];
+}
+
+-(void)clickToIntoGamesPage:(UIButton *)sender {
+    JDFunc;
 }
 
 @end

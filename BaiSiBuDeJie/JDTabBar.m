@@ -15,7 +15,7 @@
  */
 
 // tabBar子控件总数：
-#define subviewsCount 5.0
+#define subviewsCount (self.items.count + 1)
 
 @interface JDTabBar ()
 
@@ -71,6 +71,9 @@
 
 -(void)layoutSubviews {
     [super layoutSubviews];
+    // 此处打印出的subview的个数为7而不是5，说明部分控件并不是可见的。
+//    JDLog(@"%zd", self.subviews.count);
+
     // 重新布局子控件：
     NSInteger index = 0;
     CGFloat x = 0;
