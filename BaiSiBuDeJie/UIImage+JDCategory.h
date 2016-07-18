@@ -15,7 +15,7 @@
  *
  *  @param imgName 图片名。
  *
- *  @return 
+ *  @return
  */
 +(UIImage *)getOriginalImageWithName:(NSString *)imgName;
 

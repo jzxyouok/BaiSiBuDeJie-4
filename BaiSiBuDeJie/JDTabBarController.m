@@ -30,7 +30,6 @@
     // 替换系统tabBar：
     JDTabBar *tabBar = [[JDTabBar alloc] init];
     tabBar.tabBarDelegate = self;
-    [tabBar setTintColor:[UIColor blackColor]];
     [self setValue:tabBar forKey:@"tabBar"];
 }
 
