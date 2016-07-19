@@ -8,7 +8,7 @@
 
 #import "JDNavigationController.h"
 
-@interface JDNavigationController ()
+@interface JDNavigationController () <UIGestureRecognizerDelegate>
 
 @end
 
@@ -39,12 +39,35 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setupNavigationController];
+}
+
+-(void)setupNavigationController {
+#warning 自定义返回按钮后，系统自带的滑动屏幕返回手势会失效，此时必须重新设置其手势。
+    /**
+    UIScreenEdgePanGestureRecognizer *edgePan = self.interactivePopGestureRecognizer;
+    edgePan.edges = UIRectEdgeNone; */
+    
+    UIPanGestureRecognizer *backGr = [[UIPanGestureRecognizer alloc] initWithTarget:self.interactivePopGestureRecognizer.delegate action:@selector(handleNavigationTransition:)];
+    backGr.delegate = self;
+    [self.view addGestureRecognizer:backGr];
+}
+
+-(void)handleNavigationTransition:(UIPanGestureRecognizer *)backGr {
+    JDFunc;
 }
 
 // 返回到上一个控制器：
 -(void)clickToBack:(UIButton *)sender {
     JDFunc;
     [self popViewControllerAnimated:YES];
+}
+
+#pragma mark - 
+
+// 此方法用于控制是否触发收拾：
+-(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch {
+    return self.childViewControllers.count > 1;
 }
 
 @end
