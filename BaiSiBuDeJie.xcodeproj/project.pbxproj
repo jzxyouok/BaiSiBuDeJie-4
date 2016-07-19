@@ -27,6 +27,7 @@
 		EE6FF3131D3D2D2400308013 /* UIImage+JDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FF3121D3D2D2400308013 /* UIImage+JDCategory.m */; };
 		EE6FF3171D3D493F00308013 /* JDTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FF3161D3D493F00308013 /* JDTools.m */; };
 		EE6FF31A1D3D4ADA00308013 /* UIBarButtonItem+JDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FF3191D3D4ADA00308013 /* UIBarButtonItem+JDCategory.m */; };
+		EEB8EF231D3E1E5F00B27845 /* JDSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB8EF221D3E1E5F00B27845 /* JDSettingController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,8 @@
 		EE6FF3161D3D493F00308013 /* JDTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTools.m; sourceTree = "<group>"; };
 		EE6FF3181D3D4ADA00308013 /* UIBarButtonItem+JDCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JDCategory.h"; sourceTree = "<group>"; };
 		EE6FF3191D3D4ADA00308013 /* UIBarButtonItem+JDCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JDCategory.m"; sourceTree = "<group>"; };
+		EEB8EF211D3E1E5F00B27845 /* JDSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSettingController.h; sourceTree = "<group>"; };
+		EEB8EF221D3E1E5F00B27845 /* JDSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSettingController.m; sourceTree = "<group>"; };
 		F786067F3E55CDDD42BE8650 /* libPods-BaiSiBuDeJieTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiSiBuDeJieTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -209,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				EE6FF3141D3D492500308013 /* Tools */,
+				EEB8EF1D1D3E1E1E00B27845 /* Setting */,
 				EE6FF30D1D3D20D100308013 /* Category */,
 				EE6FF2FD1D3D1BB500308013 /* Publish */,
 				EE6FF2FC1D3D1BB100308013 /* New */,
@@ -365,6 +369,39 @@
 				EE6FF3161D3D493F00308013 /* JDTools.m */,
 			);
 			name = Tools;
+			sourceTree = "<group>";
+		};
+		EEB8EF1D1D3E1E1E00B27845 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				EEB8EF201D3E1E3800B27845 /* Model */,
+				EEB8EF1F1D3E1E3000B27845 /* Controller */,
+				EEB8EF1E1D3E1E2900B27845 /* View */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		EEB8EF1E1D3E1E2900B27845 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EEB8EF1F1D3E1E3000B27845 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEB8EF211D3E1E5F00B27845 /* JDSettingController.h */,
+				EEB8EF221D3E1E5F00B27845 /* JDSettingController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EEB8EF201D3E1E3800B27845 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -632,6 +669,7 @@
 				EE6FF2E21D3CBD2B00308013 /* JDAppDelegate.m in Sources */,
 				EE6FF3131D3D2D2400308013 /* UIImage+JDCategory.m in Sources */,
 				EE6FF31A1D3D4ADA00308013 /* UIBarButtonItem+JDCategory.m in Sources */,
+				EEB8EF231D3E1E5F00B27845 /* JDSettingController.m in Sources */,
 				EE6FF2EE1D3CBF4100308013 /* JDNavigationController.m in Sources */,
 				EE6FF3101D3D210900308013 /* UIView+JDCategory.m in Sources */,
 				EE6FF3011D3D1BE800308013 /* JDFriendTrendController.m in Sources */,

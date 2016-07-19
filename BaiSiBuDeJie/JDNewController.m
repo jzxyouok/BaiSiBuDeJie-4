@@ -20,7 +20,7 @@
 }
 
 -(void)setupNewController {
-    self.navigationItem.titleView = [[JDTools shardTools] getMainTitleView];
+    self.navigationItem.titleView = [JDTools getMainTitleView];
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"MainTagSubIcon" andHighlightedImageName:@"MainTagSubIconClick" andClickState:UIControlStateHighlighted andTarget:self andSEL:@selector(clickToIntoSubscribePage:)];
 }
 

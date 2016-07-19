@@ -32,7 +32,7 @@ static JDTools *_instance;
     return _instance;
 }
 
--(UIImageView *)getMainTitleView {
++(UIImageView *)getMainTitleView {
     return [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
 }
 

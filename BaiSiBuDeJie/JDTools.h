@@ -12,6 +12,6 @@
 
 +(instancetype)shardTools;
 
--(UIImageView *)getMainTitleView;
++(UIImageView *)getMainTitleView;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "JDMeController.h"
+#import "JDSettingController.h"
 
 @interface JDMeController ()
 
@@ -20,7 +21,7 @@
 }
 
 -(void)setupMeController {
-    UIBarButtonItem *moonItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"mine-moon-icon" andHighlightedImageName:@"mine-moon-icon-click" andClickState:UIControlStateSelected andTarget:self andSEL:@selector(clickToIntoNightModel:)];
+    UIBarButtonItem *moonItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"mine-moon-icon" andHighlightedImageName:@"mine-sun-icon-click" andClickState:UIControlStateSelected andTarget:self andSEL:@selector(clickToIntoNightModel:)];
     UIBarButtonItem *settingItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"mine-setting-icon" andHighlightedImageName:@"mine-setting-icon-click" andClickState:UIControlStateHighlighted andTarget:self andSEL:@selector(clickToIntoSettingPage:)];
     self.navigationItem.rightBarButtonItems = @[settingItem, moonItem,];
 }
@@ -30,8 +31,11 @@
     sender.selected = !sender.selected;
 }
 
+// 点击进入设置界面：
 -(void)clickToIntoSettingPage:(UIButton *)sender {
     JDFunc;
+    JDSettingController *settingVc = [[JDSettingController alloc] init];
+    [self.navigationController pushViewController:settingVc animated:YES];
 }
 
 @end

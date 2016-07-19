@@ -8,12 +8,6 @@
 
 #import "JDTabBar.h"
 
-/**
- [xxx appearance] 表示拿到app中所有的xxx对象：
- 只有遵守了UIAppearance协议的类才能调用Appearance方法；
- 只有被UI_APPEARANCE_SELECTOR宏修饰的属性才能设置。
- */
-
 // tabBar子控件总数：
 #define subviewsCount (self.items.count + 1)
 

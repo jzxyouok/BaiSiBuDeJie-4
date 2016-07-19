@@ -20,7 +20,7 @@
 }
 
 -(void)setupEssenceController {
-    self.navigationItem.titleView = [[JDTools shardTools] getMainTitleView];
+    self.navigationItem.titleView = [JDTools getMainTitleView];
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"nav_item_game_icon" andHighlightedImageName:@"nav_item_game_click_icon" andClickState:UIControlStateHighlighted andTarget:self andSEL:@selector(clickToIntoGamesPage:)];
     self.navigationItem.rightBarButtonItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"navigationButtonRandom" andHighlightedImageName:@"navigationButtonRandomClick" andClickState:UIControlStateHighlighted andTarget:self andSEL:@selector(clickToGetRandomResult:)];
 }
