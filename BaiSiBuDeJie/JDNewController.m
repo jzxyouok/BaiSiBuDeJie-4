@@ -21,6 +21,12 @@
 
 -(void)setupNewController {
     self.navigationItem.titleView = [[JDTools shardTools] getMainTitleView];
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"MainTagSubIcon" andHighlightedImageName:@"MainTagSubIconClick" andClickState:UIControlStateHighlighted andTarget:self andSEL:@selector(clickToIntoSubscribePage:)];
+}
+
+// 点击进入订阅页面：
+-(void)clickToIntoSubscribePage:(UIButton *)sender {
+    JDFunc;
 }
 
 @end

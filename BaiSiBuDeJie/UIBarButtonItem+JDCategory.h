@@ -10,6 +10,6 @@
 
 @interface UIBarButtonItem (JDCategory)
 
-+(UIBarButtonItem *)createBarButtonItemWithNormalImageName:(NSString *)norImgName andHighlightedImageName:(NSString *)highImgName andTarget:(id)target andSEL:(SEL)selector;
++(UIBarButtonItem *)createBarButtonItemWithNormalImageName:(NSString *)norImgName andHighlightedImageName:(NSString *)highImgName andClickState:(UIControlState)state andTarget:(id)target andSEL:(SEL)selector;
 
 @end

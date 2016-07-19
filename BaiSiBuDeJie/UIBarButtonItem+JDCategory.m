@@ -11,12 +11,15 @@
 
 @implementation UIBarButtonItem (JDCategory)
 
-+(UIBarButtonItem *)createBarButtonItemWithNormalImageName:(NSString *)norImgName andHighlightedImageName:(NSString *)highImgName andTarget:(id)target andSEL:(SEL)selector {
++(UIBarButtonItem *)createBarButtonItemWithNormalImageName:(NSString *)norImgName andHighlightedImageName:(NSString *)highImgName andClickState:(UIControlState)state andTarget:(id)target andSEL:(SEL)selector {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setImage:[UIImage imageNamed:norImgName] forState:UIControlStateNormal];
-    [btn setImage:[UIImage imageNamed:highImgName] forState:UIControlStateHighlighted];
+    [btn setImage:[UIImage imageNamed:highImgName] forState:state];
+    [btn sizeToFit];
+    UIView *view = [[UIView alloc] initWithFrame:btn.bounds];
+    [view addSubview:btn];
     [btn addTarget:target action:selector forControlEvents:UIControlEventTouchUpInside];
-    return [[UIBarButtonItem alloc] initWithCustomView:btn];
+    return [[UIBarButtonItem alloc] initWithCustomView:view];
 }
 
 @end

@@ -16,22 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setupMeController];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)setupMeController {
+    UIBarButtonItem *moonItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"mine-moon-icon" andHighlightedImageName:@"mine-moon-icon-click" andClickState:UIControlStateSelected andTarget:self andSEL:@selector(clickToIntoNightModel:)];
+    UIBarButtonItem *settingItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"mine-setting-icon" andHighlightedImageName:@"mine-setting-icon-click" andClickState:UIControlStateHighlighted andTarget:self andSEL:@selector(clickToIntoSettingPage:)];
+    self.navigationItem.rightBarButtonItems = @[settingItem, moonItem,];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)clickToIntoNightModel:(UIButton *)sender {
+    JDFunc;
+    sender.selected = !sender.selected;
 }
-*/
+
+-(void)clickToIntoSettingPage:(UIButton *)sender {
+    JDFunc;
+}
 
 @end
