@@ -8,6 +8,6 @@
 
 #import "JDBaseController.h"
 
-@interface JDFriendTrendController : JDBaseController
+@interface JDFriendTrendController : UIViewController
 
 @end

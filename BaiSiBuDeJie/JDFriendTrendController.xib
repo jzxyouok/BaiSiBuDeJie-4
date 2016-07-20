@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JDFriendTrendController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="jo8-Gh-iYl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="隔了百年的光阴，万里的迢梯，浮世肮脏，人心险诈，割裂了生和死。到哪里,再去寻找纯白如羽的华衣，还有那张莲花般的素颜。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBm-bK-KRb">
+                    <rect key="frame" x="180" y="264" width="240" height="72"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="GRB-dr-LgH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_cry_icon" translatesAutoresizingMaskIntoConstraints="NO" id="trG-aT-u9f">
+                    <rect key="frame" x="276" y="201" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="2Ed-ma-mEu"/>
+                        <constraint firstAttribute="width" constant="48" id="AGZ-A3-aqx"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ahz-Ib-gp1">
+                    <rect key="frame" x="210" y="351.5" width="180" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="180" id="CWg-8K-TgT"/>
+                        <constraint firstAttribute="height" constant="35" id="TDg-9O-bI0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="登录" backgroundImage="friendsTrend_login">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="friendsTrend_login_click">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="clickToIntoLoginPage:" destination="-1" eventType="touchUpInside" id="fSE-FO-tnK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="gBm-bK-KRb" firstAttribute="top" secondItem="trG-aT-u9f" secondAttribute="bottom" constant="15" id="3fY-Im-uX9"/>
+                <constraint firstItem="gBm-bK-KRb" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="82j-cD-Jd3"/>
+                <constraint firstItem="Ahz-Ib-gp1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="P2R-e1-HOY"/>
+                <constraint firstItem="trG-aT-u9f" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hD1-uQ-vjD"/>
+                <constraint firstItem="Ahz-Ib-gp1" firstAttribute="top" secondItem="gBm-bK-KRb" secondAttribute="bottom" constant="15" id="pQa-2X-5Aw"/>
+                <constraint firstItem="gBm-bK-KRb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="x4G-as-GIq"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="friendsTrend_login" width="243" height="48"/>
+        <image name="friendsTrend_login_click" width="243" height="48"/>
+        <image name="header_cry_icon" width="48" height="48"/>
+    </resources>
+</document>

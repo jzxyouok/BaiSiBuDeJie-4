@@ -7,6 +7,7 @@
 //
 
 #import "JDFriendTrendController.h"
+#import "JDLoginController.h"
 
 @interface JDFriendTrendController ()
 
@@ -20,11 +21,18 @@
 }
 
 -(void)setupFriendTrendController {
-    self.navigationItem.leftBarButtonItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"friendsRecommentIcon" andHighlightedImageName:@"friendsRecommentIcon" andClickState:UIControlStateHighlighted andTarget:self andSEL:@selector(clickToIntoFriendTrendPage:)];
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"friendsRecommentIcon" andHighlightedImageName:@"friendsRecommentIcon-click" andClickState:UIControlStateHighlighted andTarget:self andSEL:@selector(clickToIntoFriendTrendPage:)];
 }
 
 -(void)clickToIntoFriendTrendPage:(UIButton *)sender {
     JDFunc;
+}
+
+// 点击进入登录界面：
+- (IBAction)clickToIntoLoginPage:(UIButton *)sender {
+    JDFunc;
+    JDLoginController *loginVc = [[JDLoginController alloc] init];
+    [self presentViewController:loginVc animated:YES completion:nil];
 }
 
 @end

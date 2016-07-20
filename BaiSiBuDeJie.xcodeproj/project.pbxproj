@@ -30,6 +30,9 @@
 		EE799F7F1D3F38E400874F4C /* JDSubscribeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE799F7D1D3F38E400874F4C /* JDSubscribeCell.m */; };
 		EE799F801D3F38E400874F4C /* JDSubscribeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE799F7E1D3F38E400874F4C /* JDSubscribeCell.xib */; };
 		EE799F841D3F3DB400874F4C /* JDSubscribeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE799F831D3F3DB400874F4C /* JDSubscribeModel.m */; };
+		EE799F881D3F84AC00874F4C /* JDFriendTrendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE799F871D3F84AC00874F4C /* JDFriendTrendController.xib */; };
+		EE799F8E1D3F889200874F4C /* JDLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE799F8C1D3F889200874F4C /* JDLoginController.m */; };
+		EE799F8F1D3F889200874F4C /* JDLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE799F8D1D3F889200874F4C /* JDLoginController.xib */; };
 		EEB8EF231D3E1E5F00B27845 /* JDSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB8EF221D3E1E5F00B27845 /* JDSettingController.m */; };
 		EEB8EF2B1D3E60CA00B27845 /* JDADPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB8EF2A1D3E60CA00B27845 /* JDADPageController.m */; };
 		EEB8EF2D1D3E675F00B27845 /* JDADPageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB8EF2C1D3E675F00B27845 /* JDADPageController.xib */; };
@@ -110,6 +113,10 @@
 		EE799F7E1D3F38E400874F4C /* JDSubscribeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDSubscribeCell.xib; sourceTree = "<group>"; };
 		EE799F821D3F3DB400874F4C /* JDSubscribeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSubscribeModel.h; sourceTree = "<group>"; };
 		EE799F831D3F3DB400874F4C /* JDSubscribeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSubscribeModel.m; sourceTree = "<group>"; };
+		EE799F871D3F84AC00874F4C /* JDFriendTrendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDFriendTrendController.xib; sourceTree = "<group>"; };
+		EE799F8B1D3F889200874F4C /* JDLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLoginController.h; sourceTree = "<group>"; };
+		EE799F8C1D3F889200874F4C /* JDLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLoginController.m; sourceTree = "<group>"; };
+		EE799F8D1D3F889200874F4C /* JDLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDLoginController.xib; sourceTree = "<group>"; };
 		EEB8EF211D3E1E5F00B27845 /* JDSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSettingController.h; sourceTree = "<group>"; };
 		EEB8EF221D3E1E5F00B27845 /* JDSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSettingController.m; sourceTree = "<group>"; };
 		EEB8EF291D3E60CA00B27845 /* JDADPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDADPageController.h; sourceTree = "<group>"; };
@@ -233,6 +240,7 @@
 		EE6FF2E31D3CBDAD00308013 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EE799F891D3F887000874F4C /* Login */,
 				EEB8EF241D3E606C00B27845 /* AD */,
 				EE6FF3141D3D492500308013 /* Tools */,
 				EEB8EF1D1D3E1E1E00B27845 /* Setting */,
@@ -352,6 +360,7 @@
 			children = (
 				EE6FF2FF1D3D1BE800308013 /* JDFriendTrendController.h */,
 				EE6FF3001D3D1BE800308013 /* JDFriendTrendController.m */,
+				EE799F871D3F84AC00874F4C /* JDFriendTrendController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -415,6 +424,32 @@
 				EE799F831D3F3DB400874F4C /* JDSubscribeModel.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		EE799F891D3F887000874F4C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EE799F901D3FA41100874F4C /* View */,
+				EE799F8A1D3F887500874F4C /* Controller */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		EE799F8A1D3F887500874F4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE799F8B1D3F889200874F4C /* JDLoginController.h */,
+				EE799F8C1D3F889200874F4C /* JDLoginController.m */,
+				EE799F8D1D3F889200874F4C /* JDLoginController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EE799F901D3FA41100874F4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		EEB8EF1D1D3E1E1E00B27845 /* Setting */ = {
@@ -614,6 +649,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE2F9DFE1D3CBBF70041B2E3 /* Assets.xcassets in Resources */,
+				EE799F8F1D3F889200874F4C /* JDLoginController.xib in Resources */,
 				EEB8EF391D3F0A3500B27845 /* LaunchImage-700-568h@2x.png in Resources */,
 				EEB8EF3D1D3F0A3500B27845 /* LaunchImage.png in Resources */,
 				EEB8EF2D1D3E675F00B27845 /* JDADPageController.xib in Resources */,
@@ -622,6 +658,7 @@
 				EE799F801D3F38E400874F4C /* JDSubscribeCell.xib in Resources */,
 				EEB8EF381D3F0A3500B27845 /* LaunchImage-568h@2x.png in Resources */,
 				EEB8EF3B1D3F0A3500B27845 /* LaunchImage-800-667h@2x.png in Resources */,
+				EE799F881D3F84AC00874F4C /* JDFriendTrendController.xib in Resources */,
 				EEB8EF3E1D3F0A3500B27845 /* LaunchImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -782,6 +819,7 @@
 				EE6FF2EE1D3CBF4100308013 /* JDNavigationController.m in Sources */,
 				EE799F7F1D3F38E400874F4C /* JDSubscribeCell.m in Sources */,
 				EE799F771D3F1BBE00874F4C /* JDADModel.m in Sources */,
+				EE799F8E1D3F889200874F4C /* JDLoginController.m in Sources */,
 				EE6FF3101D3D210900308013 /* UIView+JDCategory.m in Sources */,
 				EE6FF3011D3D1BE800308013 /* JDFriendTrendController.m in Sources */,
 				EE6FF2F61D3D1B5500308013 /* JDBaseController.m in Sources */,

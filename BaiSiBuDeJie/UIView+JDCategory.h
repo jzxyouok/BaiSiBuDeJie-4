@@ -21,4 +21,6 @@
 @property (nonatomic, assign, readonly) CGFloat jd_right;
 @property (nonatomic, assign, readonly) CGFloat jd_bootom;
 
++(instancetype)jd_viewFromXib;
+
 @end
