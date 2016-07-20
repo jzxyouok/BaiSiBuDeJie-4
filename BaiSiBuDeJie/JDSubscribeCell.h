@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@class JDSubscribeModel;
+
 @interface JDSubscribeCell : UITableViewCell
+
+// 数据模型：
+@property (nonatomic, strong) JDSubscribeModel *subscribe;
+
++(JDSubscribeCell *)loadFromXibWithTableView:(UITableView *)tableView;
 
 @end

@@ -78,8 +78,6 @@
     static NSInteger secondCount = 5;
     if (secondCount == 1) {
         [self clickToSkipADPage:nil];
-        // 销毁定时器：
-        [self.timer invalidate];
     }
     secondCount--;
     [self.skipButton setTitle:[NSString stringWithFormat:@"跳过 (%zd)", secondCount] forState:UIControlStateNormal];
@@ -132,6 +130,9 @@
     UIWindow *window = [UIApplication sharedApplication].keyWindow;
     JDTabBarController *tabBarVc = [[JDTabBarController alloc] init];
     window.rootViewController = tabBarVc;
+    // 销毁定时器：
+#warning 定时器必须手动销毁，否则会引起BUG。
+    [self.timer invalidate];
 }
 
 @end
