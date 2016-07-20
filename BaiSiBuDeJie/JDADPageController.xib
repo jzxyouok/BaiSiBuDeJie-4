@@ -7,7 +7,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JDADPageController">
             <connections>
+                <outlet property="adContainView" destination="bvX-cf-WN6" id="CVx-E0-8fn"/>
                 <outlet property="launchImageView" destination="II7-DB-7Ko" id="6Dv-EL-U9i"/>
+                <outlet property="skipButton" destination="XV0-G4-iH1" id="d2j-qF-aPd"/>
                 <outlet property="view" destination="1PE-jk-xIm" id="XOl-4H-uOC"/>
             </connections>
         </placeholder>
@@ -23,14 +25,15 @@
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XV0-G4-iH1">
-                    <rect key="frame" x="520" y="30" width="60" height="30"/>
-                    <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XV0-G4-iH1">
+                    <rect key="frame" x="530" y="20" width="60" height="30"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="0.36759159482758619" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="GcL-VL-ngm"/>
                         <constraint firstAttribute="width" constant="60" id="lZT-C8-RZ6"/>
                     </constraints>
-                    <state key="normal" title="跳过 (3)">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="跳过 (5)">
                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                     <connections>
@@ -44,12 +47,12 @@
                 <constraint firstItem="bvX-cf-WN6" firstAttribute="leading" secondItem="1PE-jk-xIm" secondAttribute="leading" id="H81-FG-xXo"/>
                 <constraint firstItem="II7-DB-7Ko" firstAttribute="top" secondItem="1PE-jk-xIm" secondAttribute="top" id="III-Y4-A5p"/>
                 <constraint firstItem="II7-DB-7Ko" firstAttribute="leading" secondItem="1PE-jk-xIm" secondAttribute="leading" id="M4I-Nt-GqW"/>
-                <constraint firstAttribute="trailing" secondItem="XV0-G4-iH1" secondAttribute="trailing" constant="20" id="OaH-me-xUB"/>
+                <constraint firstAttribute="trailing" secondItem="XV0-G4-iH1" secondAttribute="trailing" constant="10" id="OaH-me-xUB"/>
                 <constraint firstAttribute="trailing" secondItem="II7-DB-7Ko" secondAttribute="trailing" id="muQ-ZL-RVG"/>
                 <constraint firstItem="bvX-cf-WN6" firstAttribute="top" secondItem="1PE-jk-xIm" secondAttribute="top" id="t7e-3t-doo"/>
                 <constraint firstAttribute="bottom" secondItem="bvX-cf-WN6" secondAttribute="bottom" id="vkZ-qi-HDR"/>
                 <constraint firstAttribute="trailing" secondItem="bvX-cf-WN6" secondAttribute="trailing" id="zCJ-ll-W1L"/>
-                <constraint firstItem="XV0-G4-iH1" firstAttribute="top" secondItem="1PE-jk-xIm" secondAttribute="top" constant="30" id="zkW-iE-vmc"/>
+                <constraint firstItem="XV0-G4-iH1" firstAttribute="top" secondItem="1PE-jk-xIm" secondAttribute="top" constant="20" id="zkW-iE-vmc"/>
             </constraints>
             <point key="canvasLocation" x="493" y="271"/>
         </view>
