@@ -11,11 +11,14 @@
 #import "JDSubscribeModel.h"
 #import <MJExtension.h>
 #import "JDSubscribeCell.h"
+#import <SVProgressHUD.h>
 
 @interface JDSubscribeController ()
 
 // 订阅模型数组：
 @property (nonatomic, strong) NSMutableArray *subsArray;
+// 网络管理者：
+@property (nonatomic, strong) AFHTTPSessionManager *manager;
 
 @end
 
@@ -26,6 +29,14 @@
         _subsArray = [NSMutableArray array];
     }
     return _subsArray;
+}
+
+-(void)viewWillDisappear:(BOOL)animated {
+    JDFunc;
+    [super viewWillDisappear:animated];
+    [SVProgressHUD dismiss];
+    // 取消所有网络任务：
+    [self.manager.tasks makeObjectsPerformSelector:@selector(removeAllObjects)];
 }
 
 - (void)viewDidLoad {
@@ -41,20 +52,24 @@
 
 -(void)loadData {
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    self.manager = manager;
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
     parameters[@"a"] = @"tag_recommend";
     parameters[@"c"] = @"topic";
     parameters[@"action"] = @"sub";
     
+    [SVProgressHUD show];
     [manager GET:@"http://api.budejie.com/api/api_open.php" parameters:parameters progress:^(NSProgress * _Nonnull downloadProgress) {
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
 //        NSLog(@"%@", responseObject);
 //        [responseObject writeToFile:@"/Users/Jiang/Desktop/Demo/tag.plist" atomically:YES];
         // 字典转模型：
         self.subsArray = [JDSubscribeModel mj_objectArrayWithKeyValuesArray:responseObject];
+        [SVProgressHUD dismiss];
         [self.tableView reloadData];
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"error.... %@", error);
+        [SVProgressHUD dismiss];
     }];
 }
 
