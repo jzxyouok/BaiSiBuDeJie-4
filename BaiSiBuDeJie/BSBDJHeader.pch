@@ -15,6 +15,11 @@
 #define JDScreenWidth [UIScreen mainScreen].bounds.size.width
 #define JDScreenHeight [UIScreen mainScreen].bounds.size.height
 
+#define iPhone6P (JDScreenHeight == 736)
+#define iPhone6 (JDScreenHeight == 667)
+#define iPhone5 (JDScreenHeight == 568)
+#define iPhone4 (JDScreenHeight == 480)
+
 // 颜色相关：
 #define JDRandomNumber(number) arc4random_uniform(number)
 #define JDColor(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]

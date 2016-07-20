@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JDADPageController">
+            <connections>
+                <outlet property="launchImageView" destination="II7-DB-7Ko" id="6Dv-EL-U9i"/>
+                <outlet property="view" destination="1PE-jk-xIm" id="XOl-4H-uOC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1PE-jk-xIm">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="II7-DB-7Ko" userLabel="启动图片">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bvX-cf-WN6" userLabel="广告占位图">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XV0-G4-iH1">
+                    <rect key="frame" x="520" y="30" width="60" height="30"/>
+                    <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="GcL-VL-ngm"/>
+                        <constraint firstAttribute="width" constant="60" id="lZT-C8-RZ6"/>
+                    </constraints>
+                    <state key="normal" title="跳过 (3)">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickToSkipADPage:" destination="-1" eventType="touchUpInside" id="q3N-AU-hpt"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="II7-DB-7Ko" secondAttribute="bottom" id="CaS-Tn-os2"/>
+                <constraint firstItem="bvX-cf-WN6" firstAttribute="leading" secondItem="1PE-jk-xIm" secondAttribute="leading" id="H81-FG-xXo"/>
+                <constraint firstItem="II7-DB-7Ko" firstAttribute="top" secondItem="1PE-jk-xIm" secondAttribute="top" id="III-Y4-A5p"/>
+                <constraint firstItem="II7-DB-7Ko" firstAttribute="leading" secondItem="1PE-jk-xIm" secondAttribute="leading" id="M4I-Nt-GqW"/>
+                <constraint firstAttribute="trailing" secondItem="XV0-G4-iH1" secondAttribute="trailing" constant="20" id="OaH-me-xUB"/>
+                <constraint firstAttribute="trailing" secondItem="II7-DB-7Ko" secondAttribute="trailing" id="muQ-ZL-RVG"/>
+                <constraint firstItem="bvX-cf-WN6" firstAttribute="top" secondItem="1PE-jk-xIm" secondAttribute="top" id="t7e-3t-doo"/>
+                <constraint firstAttribute="bottom" secondItem="bvX-cf-WN6" secondAttribute="bottom" id="vkZ-qi-HDR"/>
+                <constraint firstAttribute="trailing" secondItem="bvX-cf-WN6" secondAttribute="trailing" id="zCJ-ll-W1L"/>
+                <constraint firstItem="XV0-G4-iH1" firstAttribute="top" secondItem="1PE-jk-xIm" secondAttribute="top" constant="30" id="zkW-iE-vmc"/>
+            </constraints>
+            <point key="canvasLocation" x="493" y="271"/>
+        </view>
+    </objects>
+</document>

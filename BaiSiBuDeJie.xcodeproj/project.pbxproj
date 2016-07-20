@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		52D0BE02623D31951726A52B /* libPods-BaiSiBuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 904BBCF208A0F89B33863C2B /* libPods-BaiSiBuDeJie.a */; };
-		777A39BC0123740D08767EDC /* libPods-BaiSiBuDeJieTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F786067F3E55CDDD42BE8650 /* libPods-BaiSiBuDeJieTests.a */; };
-		87B109CC6B7ED9BCE66D26E2 /* libPods-BaiSiBuDeJieUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B7F9F396D269BF15A03EE1 /* libPods-BaiSiBuDeJieUITests.a */; };
 		EE2F9DF31D3CBBF70041B2E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F9DF21D3CBBF70041B2E3 /* main.m */; };
 		EE2F9DFE1D3CBBF70041B2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2F9DFD1D3CBBF70041B2E3 /* Assets.xcassets */; };
 		EE2F9E0C1D3CBBF70041B2E3 /* BaiSiBuDeJieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F9E0B1D3CBBF70041B2E3 /* BaiSiBuDeJieTests.m */; };
@@ -28,6 +26,15 @@
 		EE6FF3171D3D493F00308013 /* JDTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FF3161D3D493F00308013 /* JDTools.m */; };
 		EE6FF31A1D3D4ADA00308013 /* UIBarButtonItem+JDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6FF3191D3D4ADA00308013 /* UIBarButtonItem+JDCategory.m */; };
 		EEB8EF231D3E1E5F00B27845 /* JDSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB8EF221D3E1E5F00B27845 /* JDSettingController.m */; };
+		EEB8EF2B1D3E60CA00B27845 /* JDADPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB8EF2A1D3E60CA00B27845 /* JDADPageController.m */; };
+		EEB8EF2D1D3E675F00B27845 /* JDADPageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB8EF2C1D3E675F00B27845 /* JDADPageController.xib */; };
+		EEB8EF381D3F0A3500B27845 /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB8EF301D3F0A3500B27845 /* LaunchImage-568h@2x.png */; };
+		EEB8EF391D3F0A3500B27845 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB8EF311D3F0A3500B27845 /* LaunchImage-700-568h@2x.png */; };
+		EEB8EF3A1D3F0A3500B27845 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB8EF321D3F0A3500B27845 /* LaunchImage-700@2x.png */; };
+		EEB8EF3B1D3F0A3500B27845 /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB8EF331D3F0A3500B27845 /* LaunchImage-800-667h@2x.png */; };
+		EEB8EF3C1D3F0A3500B27845 /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB8EF341D3F0A3500B27845 /* LaunchImage-800-Portrait-736h@3x.png */; };
+		EEB8EF3D1D3F0A3500B27845 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB8EF351D3F0A3500B27845 /* LaunchImage.png */; };
+		EEB8EF3E1D3F0A3500B27845 /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB8EF361D3F0A3500B27845 /* LaunchImage@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,12 +56,8 @@
 
 /* Begin PBXFileReference section */
 		301C1C467BEF9959FA2F88FF /* Pods-BaiSiBuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.release.xcconfig"; sourceTree = "<group>"; };
-		3086FD24069C02D7C79717B6 /* Pods-BaiSiBuDeJieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJieTests/Pods-BaiSiBuDeJieTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3D9E950E4BCAF522CD59B69C /* Pods-BaiSiBuDeJieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJieTests/Pods-BaiSiBuDeJieTests.release.xcconfig"; sourceTree = "<group>"; };
 		78B7F9F396D269BF15A03EE1 /* libPods-BaiSiBuDeJieUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiSiBuDeJieUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C6B8640B087DB0897137AC4 /* Pods-BaiSiBuDeJieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJieUITests/Pods-BaiSiBuDeJieUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		904BBCF208A0F89B33863C2B /* libPods-BaiSiBuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiSiBuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		927FFE4C4817FB1C27B05211 /* Pods-BaiSiBuDeJieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJieUITests/Pods-BaiSiBuDeJieUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A5D4CA5AFF47CFBD0128CD92 /* Pods-BaiSiBuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
 		EE2F9DEE1D3CBBF70041B2E3 /* BaiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSiBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2F9DF21D3CBBF70041B2E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +98,16 @@
 		EE6FF3191D3D4ADA00308013 /* UIBarButtonItem+JDCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JDCategory.m"; sourceTree = "<group>"; };
 		EEB8EF211D3E1E5F00B27845 /* JDSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSettingController.h; sourceTree = "<group>"; };
 		EEB8EF221D3E1E5F00B27845 /* JDSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSettingController.m; sourceTree = "<group>"; };
+		EEB8EF291D3E60CA00B27845 /* JDADPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDADPageController.h; sourceTree = "<group>"; };
+		EEB8EF2A1D3E60CA00B27845 /* JDADPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDADPageController.m; sourceTree = "<group>"; };
+		EEB8EF2C1D3E675F00B27845 /* JDADPageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDADPageController.xib; sourceTree = "<group>"; };
+		EEB8EF301D3F0A3500B27845 /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		EEB8EF311D3F0A3500B27845 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		EEB8EF321D3F0A3500B27845 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		EEB8EF331D3F0A3500B27845 /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		EEB8EF341D3F0A3500B27845 /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		EEB8EF351D3F0A3500B27845 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		EEB8EF361D3F0A3500B27845 /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
 		F786067F3E55CDDD42BE8650 /* libPods-BaiSiBuDeJieTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiSiBuDeJieTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -111,7 +124,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				777A39BC0123740D08767EDC /* libPods-BaiSiBuDeJieTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +131,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87B109CC6B7ED9BCE66D26E2 /* libPods-BaiSiBuDeJieUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +152,6 @@
 			children = (
 				A5D4CA5AFF47CFBD0128CD92 /* Pods-BaiSiBuDeJie.debug.xcconfig */,
 				301C1C467BEF9959FA2F88FF /* Pods-BaiSiBuDeJie.release.xcconfig */,
-				3086FD24069C02D7C79717B6 /* Pods-BaiSiBuDeJieTests.debug.xcconfig */,
-				3D9E950E4BCAF522CD59B69C /* Pods-BaiSiBuDeJieTests.release.xcconfig */,
-				8C6B8640B087DB0897137AC4 /* Pods-BaiSiBuDeJieUITests.debug.xcconfig */,
-				927FFE4C4817FB1C27B05211 /* Pods-BaiSiBuDeJieUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -184,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				EE2F9DFD1D3CBBF70041B2E3 /* Assets.xcassets */,
+				EEB8EF2E1D3F0A3500B27845 /* Launchimage */,
 				EE2F9E021D3CBBF70041B2E3 /* Info.plist */,
 				EE2F9DF21D3CBBF70041B2E3 /* main.m */,
 			);
@@ -211,6 +219,7 @@
 		EE6FF2E31D3CBDAD00308013 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				EEB8EF241D3E606C00B27845 /* AD */,
 				EE6FF3141D3D492500308013 /* Tools */,
 				EEB8EF1D1D3E1E1E00B27845 /* Setting */,
 				EE6FF30D1D3D20D100308013 /* Category */,
@@ -404,6 +413,55 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		EEB8EF241D3E606C00B27845 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				EEB8EF281D3E609100B27845 /* Model */,
+				EEB8EF271D3E608A00B27845 /* Controller */,
+				EEB8EF251D3E607000B27845 /* View */,
+			);
+			name = AD;
+			sourceTree = "<group>";
+		};
+		EEB8EF251D3E607000B27845 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EEB8EF271D3E608A00B27845 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEB8EF291D3E60CA00B27845 /* JDADPageController.h */,
+				EEB8EF2A1D3E60CA00B27845 /* JDADPageController.m */,
+				EEB8EF2C1D3E675F00B27845 /* JDADPageController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EEB8EF281D3E609100B27845 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EEB8EF2E1D3F0A3500B27845 /* Launchimage */ = {
+			isa = PBXGroup;
+			children = (
+				EEB8EF301D3F0A3500B27845 /* LaunchImage-568h@2x.png */,
+				EEB8EF311D3F0A3500B27845 /* LaunchImage-700-568h@2x.png */,
+				EEB8EF321D3F0A3500B27845 /* LaunchImage-700@2x.png */,
+				EEB8EF331D3F0A3500B27845 /* LaunchImage-800-667h@2x.png */,
+				EEB8EF341D3F0A3500B27845 /* LaunchImage-800-Portrait-736h@3x.png */,
+				EEB8EF351D3F0A3500B27845 /* LaunchImage.png */,
+				EEB8EF361D3F0A3500B27845 /* LaunchImage@2x.png */,
+			);
+			name = Launchimage;
+			path = "Brand Assets.launchimage";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -517,6 +575,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE2F9DFE1D3CBBF70041B2E3 /* Assets.xcassets in Resources */,
+				EEB8EF391D3F0A3500B27845 /* LaunchImage-700-568h@2x.png in Resources */,
+				EEB8EF3D1D3F0A3500B27845 /* LaunchImage.png in Resources */,
+				EEB8EF2D1D3E675F00B27845 /* JDADPageController.xib in Resources */,
+				EEB8EF3A1D3F0A3500B27845 /* LaunchImage-700@2x.png in Resources */,
+				EEB8EF3C1D3F0A3500B27845 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				EEB8EF381D3F0A3500B27845 /* LaunchImage-568h@2x.png in Resources */,
+				EEB8EF3B1D3F0A3500B27845 /* LaunchImage-800-667h@2x.png in Resources */,
+				EEB8EF3E1D3F0A3500B27845 /* LaunchImage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,6 +733,7 @@
 				EE6FF3091D3D1C2500308013 /* JDNewController.m in Sources */,
 				EE6FF30C1D3D1E2200308013 /* JDTabBar.m in Sources */,
 				EE6FF2E21D3CBD2B00308013 /* JDAppDelegate.m in Sources */,
+				EEB8EF2B1D3E60CA00B27845 /* JDADPageController.m in Sources */,
 				EE6FF3131D3D2D2400308013 /* UIImage+JDCategory.m in Sources */,
 				EE6FF31A1D3D4ADA00308013 /* UIBarButtonItem+JDCategory.m in Sources */,
 				EEB8EF231D3E1E5F00B27845 /* JDSettingController.m in Sources */,
@@ -828,7 +895,6 @@
 		};
 		EE2F9E1F1D3CBBF70041B2E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3086FD24069C02D7C79717B6 /* Pods-BaiSiBuDeJieTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BaiSiBuDeJieTests/Info.plist;
@@ -841,7 +907,6 @@
 		};
 		EE2F9E201D3CBBF70041B2E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D9E950E4BCAF522CD59B69C /* Pods-BaiSiBuDeJieTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BaiSiBuDeJieTests/Info.plist;
@@ -854,7 +919,6 @@
 		};
 		EE2F9E221D3CBBF70041B2E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C6B8640B087DB0897137AC4 /* Pods-BaiSiBuDeJieUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BaiSiBuDeJieUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -866,7 +930,6 @@
 		};
 		EE2F9E231D3CBBF70041B2E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 927FFE4C4817FB1C27B05211 /* Pods-BaiSiBuDeJieUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BaiSiBuDeJieUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

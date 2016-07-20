@@ -8,13 +8,15 @@
 
 #import "JDAppDelegate.h"
 #import "JDTabBarController.h"
+#import "JDADPageController.h"
 
 @implementation JDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIWindow *window = [[UIWindow alloc] initWithFrame:JDScreenBounds];
-    JDTabBarController *tabBarVc = [[JDTabBarController alloc] init];
-    window.rootViewController = tabBarVc;
+//    JDTabBarController *tabBarVc = [[JDTabBarController alloc] init];
+    JDADPageController *adVc = [[JDADPageController alloc] init];
+    window.rootViewController = adVc;
     [window makeKeyAndVisible];
     self.window = window;
     return YES;
