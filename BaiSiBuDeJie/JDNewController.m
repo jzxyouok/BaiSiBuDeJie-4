@@ -7,6 +7,7 @@
 //
 
 #import "JDNewController.h"
+#import "JDSubscribeController.h"
 
 @interface JDNewController ()
 
@@ -27,6 +28,8 @@
 // 点击进入订阅页面：
 -(void)clickToIntoSubscribePage:(UIButton *)sender {
     JDFunc;
+    JDSubscribeController *subVc = [[JDSubscribeController alloc] init];
+    [self.navigationController pushViewController:subVc animated:YES];
 }
 
 @end

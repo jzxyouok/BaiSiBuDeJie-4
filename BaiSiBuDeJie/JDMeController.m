@@ -24,11 +24,17 @@
     UIBarButtonItem *moonItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"mine-moon-icon" andHighlightedImageName:@"mine-sun-icon-click" andClickState:UIControlStateSelected andTarget:self andSEL:@selector(clickToIntoNightModel:)];
     UIBarButtonItem *settingItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"mine-setting-icon" andHighlightedImageName:@"mine-setting-icon-click" andClickState:UIControlStateHighlighted andTarget:self andSEL:@selector(clickToIntoSettingPage:)];
     self.navigationItem.rightBarButtonItems = @[settingItem, moonItem,];
+    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem createBarButtonItemWithNormalImageName:@"nav_coin_icon" andHighlightedImageName:@"nav_coin_icon_click" andClickState:UIControlStateHighlighted andTarget:self andSEL:@selector(clickToIntoCoinCenter:)];
 }
 
 -(void)clickToIntoNightModel:(UIButton *)sender {
     JDFunc;
     sender.selected = !sender.selected;
+}
+
+-(void)clickToIntoCoinCenter:(UIButton *)sender {
+    JDFunc;
 }
 
 // 点击进入设置界面：
