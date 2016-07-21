@@ -1,16 +1,17 @@
+
 //
-//  JDCustomButton.m
-//  百思不得姐
+//  JDTPButton.m
+//  BaiSiBuDeJie
 //
-//  Created by JiangDi on 16/6/2.
-//  Copyright © 2016年 Google. All rights reserved.
+//  Created by Jiang on 16/7/21.
+//  Copyright © 2016年 Jiang. All rights reserved.
 //
 
-#import "JDCustomButton.h"
+#import "JDTPButton.h"
 
 #define margin 5
 
-@implementation JDCustomButton
+@implementation JDTPButton
 
 -(void)layoutSubviews {
     [super layoutSubviews];

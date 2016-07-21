@@ -1,20 +1,19 @@
 //
-//  JDCustomTextField.m
-//  百思不得姐
+//  JDUPTextField.m
+//  BaiSiBuDeJie
 //
-//  Created by JiangDi on 16/6/2.
-//  Copyright © 2016年 Google. All rights reserved.
+//  Created by Jiang on 16/7/21.
+//  Copyright © 2016年 Jiang. All rights reserved.
 //
 
-#import "JDCustomTextField.h"
+#import "JDUPTextField.h"
 
 // Placeholder原始颜色：
 #define kOriginalColor JDColor(51, 41, 48, 1.0f)
 // Placeholder编辑状态颜色：
 #define kEditingColor JDColor(255, 255, 255, 0.9f)
 
-
-@implementation JDCustomTextField
+@implementation JDUPTextField
 
 -(void)awakeFromNib {
     // 设置光标颜色：
@@ -25,13 +24,13 @@
 #warning 只要是继承于UIControl的控件都能addTarget。
 #warning 此处也可以用代理实现，但不建议使用。
     /**
-    [self addTarget:self action:@selector(editingDidBegin) forControlEvents:UIControlEventEditingDidBegin];
-    [self addTarget:self action:@selector(editingDidEnd) forControlEvents:UIControlEventEditingDidEnd];
+     [self addTarget:self action:@selector(editingDidBegin) forControlEvents:UIControlEventEditingDidBegin];
+     [self addTarget:self action:@selector(editingDidEnd) forControlEvents:UIControlEventEditingDidEnd];
      */
     // 通知的方式实现：
     /*
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(editingDidBegin) name:UITextFieldTextDidBeginEditingNotification object:self];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(editingDidEnd) name:UITextFieldTextDidEndEditingNotification object:self];
+     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(editingDidBegin) name:UITextFieldTextDidBeginEditingNotification object:self];
+     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(editingDidEnd) name:UITextFieldTextDidEndEditingNotification object:self];
      **/
 }
 
@@ -40,21 +39,21 @@
  *  文本框进入编辑状态后：
  */
 /**
--(void)editingDidBegin {
-    JDFunc;
-    [self setValue:kEditingColor forKeyPath:TextFieldPlaceholderColorKey];
-}
+ -(void)editingDidBegin {
+ JDFunc;
+ [self setValue:kEditingColor forKeyPath:TextFieldPlaceholderColorKey];
+ }
  */
 
 /**
  *  为本框退出编辑状态后：
  */
 /**
--(void)editingDidEnd {
-    JDFunc;
-    [self setValue:kOriginalColor forKeyPath:TextFieldPlaceholderColorKey];
-}
-*/
+ -(void)editingDidEnd {
+ JDFunc;
+ [self setValue:kOriginalColor forKeyPath:TextFieldPlaceholderColorKey];
+ }
+ */
 
 /**
  重写textField内部的两个方法，也可以实现：
