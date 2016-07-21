@@ -37,6 +37,7 @@
 #import "UIView+JDCategory.h"
 #import "UIImage+JDCategory.h"
 #import "UIBarButtonItem+JDCategory.h"
+#import "UITextField+JDCategory.h"
 #import "JDTools.h"
 
 // 其他：

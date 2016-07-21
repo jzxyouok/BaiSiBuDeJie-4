@@ -1,5 +1,5 @@
 //
-//  JDLoginController.h
+//  JDCustomButton.h
 //  百思不得姐
 //
 //  Created by JiangDi on 16/6/2.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JDLoginController : UIViewController
+@interface JDCustomButton : UIButton
 
 @end

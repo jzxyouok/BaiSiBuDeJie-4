@@ -31,8 +31,11 @@
 		EE799F801D3F38E400874F4C /* JDSubscribeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE799F7E1D3F38E400874F4C /* JDSubscribeCell.xib */; };
 		EE799F841D3F3DB400874F4C /* JDSubscribeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE799F831D3F3DB400874F4C /* JDSubscribeModel.m */; };
 		EE799F881D3F84AC00874F4C /* JDFriendTrendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE799F871D3F84AC00874F4C /* JDFriendTrendController.xib */; };
-		EE799F8E1D3F889200874F4C /* JDLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE799F8C1D3F889200874F4C /* JDLoginController.m */; };
-		EE799F8F1D3F889200874F4C /* JDLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE799F8D1D3F889200874F4C /* JDLoginController.xib */; };
+		EE799F991D4050EB00874F4C /* JDLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE799F971D4050EB00874F4C /* JDLoginController.m */; };
+		EE799F9A1D4050EB00874F4C /* JDLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE799F981D4050EB00874F4C /* JDLoginController.xib */; };
+		EE799F9F1D40512200874F4C /* JDCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE799F9C1D40512200874F4C /* JDCustomButton.m */; };
+		EE799FA01D40512200874F4C /* JDCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EE799F9E1D40512200874F4C /* JDCustomTextField.m */; };
+		EE799FA31D4051A400874F4C /* UITextField+JDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = EE799FA21D4051A400874F4C /* UITextField+JDCategory.m */; };
 		EEB8EF231D3E1E5F00B27845 /* JDSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB8EF221D3E1E5F00B27845 /* JDSettingController.m */; };
 		EEB8EF2B1D3E60CA00B27845 /* JDADPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB8EF2A1D3E60CA00B27845 /* JDADPageController.m */; };
 		EEB8EF2D1D3E675F00B27845 /* JDADPageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB8EF2C1D3E675F00B27845 /* JDADPageController.xib */; };
@@ -114,9 +117,15 @@
 		EE799F821D3F3DB400874F4C /* JDSubscribeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSubscribeModel.h; sourceTree = "<group>"; };
 		EE799F831D3F3DB400874F4C /* JDSubscribeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSubscribeModel.m; sourceTree = "<group>"; };
 		EE799F871D3F84AC00874F4C /* JDFriendTrendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDFriendTrendController.xib; sourceTree = "<group>"; };
-		EE799F8B1D3F889200874F4C /* JDLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLoginController.h; sourceTree = "<group>"; };
-		EE799F8C1D3F889200874F4C /* JDLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLoginController.m; sourceTree = "<group>"; };
-		EE799F8D1D3F889200874F4C /* JDLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDLoginController.xib; sourceTree = "<group>"; };
+		EE799F961D4050EB00874F4C /* JDLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLoginController.h; sourceTree = "<group>"; };
+		EE799F971D4050EB00874F4C /* JDLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLoginController.m; sourceTree = "<group>"; };
+		EE799F981D4050EB00874F4C /* JDLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDLoginController.xib; sourceTree = "<group>"; };
+		EE799F9B1D40512200874F4C /* JDCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCustomButton.h; sourceTree = "<group>"; };
+		EE799F9C1D40512200874F4C /* JDCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCustomButton.m; sourceTree = "<group>"; };
+		EE799F9D1D40512200874F4C /* JDCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCustomTextField.h; sourceTree = "<group>"; };
+		EE799F9E1D40512200874F4C /* JDCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCustomTextField.m; sourceTree = "<group>"; };
+		EE799FA11D4051A400874F4C /* UITextField+JDCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+JDCategory.h"; sourceTree = "<group>"; };
+		EE799FA21D4051A400874F4C /* UITextField+JDCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+JDCategory.m"; sourceTree = "<group>"; };
 		EEB8EF211D3E1E5F00B27845 /* JDSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSettingController.h; sourceTree = "<group>"; };
 		EEB8EF221D3E1E5F00B27845 /* JDSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSettingController.m; sourceTree = "<group>"; };
 		EEB8EF291D3E60CA00B27845 /* JDADPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDADPageController.h; sourceTree = "<group>"; };
@@ -394,6 +403,8 @@
 				EE6FF3121D3D2D2400308013 /* UIImage+JDCategory.m */,
 				EE6FF3181D3D4ADA00308013 /* UIBarButtonItem+JDCategory.h */,
 				EE6FF3191D3D4ADA00308013 /* UIBarButtonItem+JDCategory.m */,
+				EE799FA11D4051A400874F4C /* UITextField+JDCategory.h */,
+				EE799FA21D4051A400874F4C /* UITextField+JDCategory.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -438,9 +449,9 @@
 		EE799F8A1D3F887500874F4C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EE799F8B1D3F889200874F4C /* JDLoginController.h */,
-				EE799F8C1D3F889200874F4C /* JDLoginController.m */,
-				EE799F8D1D3F889200874F4C /* JDLoginController.xib */,
+				EE799F961D4050EB00874F4C /* JDLoginController.h */,
+				EE799F971D4050EB00874F4C /* JDLoginController.m */,
+				EE799F981D4050EB00874F4C /* JDLoginController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -448,6 +459,10 @@
 		EE799F901D3FA41100874F4C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EE799F9B1D40512200874F4C /* JDCustomButton.h */,
+				EE799F9C1D40512200874F4C /* JDCustomButton.m */,
+				EE799F9D1D40512200874F4C /* JDCustomTextField.h */,
+				EE799F9E1D40512200874F4C /* JDCustomTextField.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -649,7 +664,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE2F9DFE1D3CBBF70041B2E3 /* Assets.xcassets in Resources */,
-				EE799F8F1D3F889200874F4C /* JDLoginController.xib in Resources */,
+				EE799F9A1D4050EB00874F4C /* JDLoginController.xib in Resources */,
 				EEB8EF391D3F0A3500B27845 /* LaunchImage-700-568h@2x.png in Resources */,
 				EEB8EF3D1D3F0A3500B27845 /* LaunchImage.png in Resources */,
 				EEB8EF2D1D3E675F00B27845 /* JDADPageController.xib in Resources */,
@@ -807,6 +822,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE799F9F1D40512200874F4C /* JDCustomButton.m in Sources */,
 				EE6FF3091D3D1C2500308013 /* JDNewController.m in Sources */,
 				EE6FF30C1D3D1E2200308013 /* JDTabBar.m in Sources */,
 				EE6FF2E21D3CBD2B00308013 /* JDAppDelegate.m in Sources */,
@@ -815,11 +831,13 @@
 				EE6FF3131D3D2D2400308013 /* UIImage+JDCategory.m in Sources */,
 				EE799F841D3F3DB400874F4C /* JDSubscribeModel.m in Sources */,
 				EE6FF31A1D3D4ADA00308013 /* UIBarButtonItem+JDCategory.m in Sources */,
+				EE799FA31D4051A400874F4C /* UITextField+JDCategory.m in Sources */,
 				EEB8EF231D3E1E5F00B27845 /* JDSettingController.m in Sources */,
+				EE799FA01D40512200874F4C /* JDCustomTextField.m in Sources */,
 				EE6FF2EE1D3CBF4100308013 /* JDNavigationController.m in Sources */,
 				EE799F7F1D3F38E400874F4C /* JDSubscribeCell.m in Sources */,
 				EE799F771D3F1BBE00874F4C /* JDADModel.m in Sources */,
-				EE799F8E1D3F889200874F4C /* JDLoginController.m in Sources */,
+				EE799F991D4050EB00874F4C /* JDLoginController.m in Sources */,
 				EE6FF3101D3D210900308013 /* UIView+JDCategory.m in Sources */,
 				EE6FF3011D3D1BE800308013 /* JDFriendTrendController.m in Sources */,
 				EE6FF2F61D3D1B5500308013 /* JDBaseController.m in Sources */,
